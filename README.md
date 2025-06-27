@@ -4,20 +4,20 @@ This action prints "Hello World" or "Hello" + the name of a person to greet to t
 
 ## Inputs
 
-### `who-to-greet`
+### `name`
 
 **Required** The name of the person to greet. Default `"World"`.
 
 ## Outputs
 
-### `time`
+### `greeting`
 
-The time we greeted you.
+A greeting message, for example `Hello World!`
 
 ## Example usage
 
 ```yaml
-uses: actions/barsoon@e76147da8e5c81eaf017dede5645551d4b94427b
+uses: actions/hello-barsoon@e76147da8e5c81eaf017dede5645551d4b94427b
 with:
   name: Mona the Octocat
 ```
