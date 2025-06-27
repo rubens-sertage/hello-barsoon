@@ -1,4 +1,9 @@
 {
+  "name": "barsoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1"
